@@ -1,0 +1,7 @@
+name: ServerCore
+description: Server Core for Matthew_Cash Network
+author: Matthew_Cash
+website: matthew-cash.com
+prefix: ServerCore
+version: 1.0.0
+main: com.matthewcash.network.ServerCore
