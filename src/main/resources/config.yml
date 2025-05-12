@@ -1,0 +1,5 @@
+real_day_time:
+    enable: false
+    world: "world"
+    latitude: 34.0549 # south is represented as negative
+    longitude: -118.2426 # west is represented as negative

@@ -13,7 +13,13 @@ public class ServerCore extends JavaPlugin {
     @Override
     public void onEnable() {
         plugin = this;
+
+        saveResource("config.yml", false);
+
         Bukkit.getPluginManager().registerEvents(new ChatEvent(), this);
+
+        if (getConfig().getBoolean("real_day_time.enable", false))
+            RealDayTime.startTimer();
 
         getLogger().info("Enabled ServerCore!");
     }
